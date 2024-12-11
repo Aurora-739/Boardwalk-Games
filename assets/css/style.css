@@ -73,11 +73,20 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-/* MEDIA QUERIES */
+/* GAMES */
+#new-games-section .card { /* make card borders transparent*/
+    border: transparent;
+}
+
+#fav-games-section .card { /* make card borders transparent*/
+    border: transparent;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* -- MEDIUM DEVICES (tablets and up -- ≥768px) */
 @media screen and (min-width: 768px){
-    /* MAKE ALL CARDS THE SAME HEIGHT */
+    /* MAKE ALL THE services CARDS THE SAME HEIGHT */
     #services .card-body {
         min-height: 191px;
     }
@@ -85,7 +94,7 @@ h2 {
 
 /* -- LARGE DEVICES (laptops and up -- ≥992px) */
 @media screen and (min-width: 992px){
-    /* MAKE ALL CARDS THE SAME HEIGHT */
+    /* MAKE ALL THE services CARDS THE SAME HEIGHT */
     #services .card-body {
         min-height: auto;
     }
@@ -93,7 +102,7 @@ h2 {
 
 /* -- X-LARGE DEVICES (≥1200px) */
 @media screen and (min-width: 1200px){
-    /* MAKE ALL CARDS THE SAME HEIGHT */
+    /* MAKE ALL THE services CARDS THE SAME HEIGHT */
     #services .card-body {
         min-height: 220px;
     }
