@@ -20,6 +20,7 @@
 /*GLOBAL STYLES*/
 body {
     font-family: var(--primary-font);
+    padding-top: 57.15PX;
 }
 
 h1,
