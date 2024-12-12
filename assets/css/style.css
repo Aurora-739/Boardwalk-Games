@@ -56,6 +56,31 @@ h2 {
     width: 30px;
 }
 
+/* BUTTON STYLING FOR NAV AND FORM*/
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custon-button-outline {
+    border: 2px solid var(--highlight-color);
+    background-color: transparent;
+    color: var(--highlight-color);
+    padding: 7px 25px;
+}
+
+.custon-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* HEADER */
 
 #header .lead {
@@ -116,6 +141,8 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
+
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
